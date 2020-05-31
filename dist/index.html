@@ -1,0 +1,389 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+
+	<meta charset="utf-8">
+	<!-- <base href="/"> -->
+
+	<title>TOPDETI</title>
+
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+	
+	<!-- Custom Browsers Color Start -->
+	<meta name="theme-color" content="#000">
+	<!-- Custom Browsers Color End -->
+
+	<link rel="stylesheet" href="css/main.min.css">
+
+	<!-- first styles -->
+	<style>@font-face{font-family:"RobotoRegular";font-weight:400;font-style:normal;src:url(../fonts/RobotoRegular/RobotoRegular.eot);src:url(../fonts/RobotoRegular/RobotoRegular.eot?#iefix) format("embedded-opentype"),url(../fonts/RobotoRegular/RobotoRegular.woff) format("woff"),url(../fonts/RobotoRegular/RobotoRegular.ttf) format("truetype")}@font-face{font-family:"ArialRegular";font-weight:400;font-style:normal;src:url(../fonts/ArialRegular/ArialRegular.eot);src:url(../fonts/ArialRegular/ArialRegular.eot?#iefix) format("embedded-opentype"),url(../fonts/ArialRegular/ArialRegular.woff) format("woff"),url(../fonts/ArialRegular/ArialRegular.ttf) format("truetype")}@font-face{font-family:"CenturyGothic";font-weight:400;font-style:normal;src:url(../fonts/CenturyGothic/CenturyGothic.eot);src:url(../fonts/CenturyGothic/CenturyGothic.eot?#iefix) format("embedded-opentype"),url(../fonts/CenturyGothic/CenturyGothic.woff) format("woff"),url(../fonts/CenturyGothic/CenturyGothic.ttf) format("truetype")}*,:after,:before{margin:0;padding:0;box-sizing:border-box}a{text-decoration:none}li{list-style-type:none}input,textarea{outline:0;resize:none;border:0}body{font-size:16px;min-height:100%;overflow-x:hidden;line-height:1.65;font-family:"ArialRegular",sans-serif}body.active {overflow: hidden;}.wrapper{max-width:940px;margin:0 auto}.topmenu{background:#2b2b2b}.topmenu .wrapper{display:flex;align-items:center;justify-content:space-between}.topmenu__logo{padding-top:8px}.topmenu__links{display:flex;text-transform:uppercase}.topmenu__links li{position:relative}.topmenu__links li:hover>ul{opacity:1;visibility:visible}.topmenu__link{font-size:11px;color:#fff;padding:23px 14px;display:inline-block}.topmenu__link:hover{color:#9b9b9b}.topmenu__dropdown{position:absolute;bottom:70;left:0;background:#2b2b2b;text-transform:lowercase;opacity:0;visibility:hidden;z-index:3;transition-duration:.25s}.topmenu__dropdown:hover{opacity:1;visibility:visible}.topmenu__dropdown li{padding:10px 105px 5px 5px;margin:0 12px 0 10px; line-height: 1;}.topmenu__dropdown li:not(:last-child){border-bottom:1px solid #343434}.topmenu__item{font-size:11px;color:#fff}.topmenu__item:hover{color:#8a8a8a}.topmenu__search{width:178px;height:28px;background:#4f4f4f;border-radius:8px;background-image:url(../img/icons/search.png);background-repeat:no-repeat;background-position:97% center;color:#f6f5f4;margin:15px 0}.head .wrapper,.topmenu__area{display:flex;justify-content:space-between}.topmenu__area{width:130px;align-items:center;line-height:1}.head{color:#323232;border-bottom:1px solid #e1e1e1}.head .wrapper{padding:25px 0}.head__callback{text-transform:uppercase}.head__num{font-family:"CenturyGothic",sans-serif;font-size:18px}.head__btn{display:inline-block;font-size:10px;color:#fff;padding:10px 30px;background:#f7a707;border-radius:8px}.head__btn:hover{background:#f6b22a}.head__btn:active{background:#e09b11}.head__logo{flex:0 0 73px}.head__follow{font-size:14px;font-family:"CenturyGothic",sans-serif;line-height:2}.head__social,.footer__social{width:172px;display:flex;justify-content:space-between}.tabs__header{text-align:center}.tabs__tab{display:inline-block;margin:0 14px;font-size:14px;color:#9b9b9b;padding:20px 8px}.tabs__tab:hover{text-decoration: underline;}.tabs__tab.active{border-top:3px solid #f7a707;color:#414141}@media screen and (max-width:939px){.wrapper{max-width:98%}}@media screen and (max-width:768px){.topmenu__link{padding:24px 8px;font-size:10px}}@media screen and (max-width:767px){.topmenu__links{position:fixed;top:0;left:0;width:100%;height:100%;background:rgba(0,0,0,.7);align-items:center;padding-top:80px;transition-duration:.25s;opacity:0;visibility:hidden;flex-direction:column;z-index:-2}.topmenu__links.active{opacity:1;visibility:visible;z-index:2}.topmenu__dropdown{z-index:3}.topmenu .topmenu__item,.topmenu__link{font-size:16px;padding:0;margin:20px;}.topmenu__area{width:100px}.topmenu__burger{position:fixed;height:50px;width:50px;background:#000;top:40px;right:20px;border-radius:50%;display:flex;align-items:center;justify-content:center;z-index:5;transition-duration:.25s}.topmenu__burger.active{transform:rotate(45deg)}.topmenu__burger.active span:before{top:0;transform:rotate(90deg)}.topmenu__burger.active span:after{top:0}.topmenu .topmenu__line:after,.topmenu .topmenu__line:before,.topmenu__line{display:block;position:absolute;height:3px;width:30px;background:#fff;transition-duration:.25s}.topmenu__line:before{content:'';top:-10px}.topmenu__line:after{content:'';top:10px}}@media screen and (max-width:500px){.head__logo{display:none}}@media screen and (orientation:landscape) and (max-height:425px){.topmenu__links{position:fixed;top:0;left:0;width:100%;height:100%;background:rgba(0,0,0,.7);align-items:center;padding-top:0px;transition-duration:.25s;opacity:0;visibility:hidden;flex-direction:column;z-index:-2}.topmenu__links.active{opacity:1;visibility:visible;z-index:2}.topmenu .topmenu__item,.topmenu__link{font-size:16px}.topmenu__burger{position:fixed;height:50px;width:50px;background:#000;top:40px;right:20px;border-radius:50%;display:flex;align-items:center;justify-content:center;z-index:5;transition-duration:.25s}.topmenu__burger.active{transform:rotate(45deg)}.topmenu__burger.active span:before{top:0;transform:rotate(90deg)}.topmenu__burger.active span:after{top:0}.topmenu .topmenu__line:after,.topmenu .topmenu__line:before,.topmenu__line{display:block;position:absolute;height:3px;width:30px;background:#fff;transition-duration:.25s}.topmenu__line:before{content:'';top:-10px}.topmenu__line:after{content:'';top:10px}}@media screen and (orientation: landscape) and (max-height:375px) {.topmenu__links {padding-top: 0px;}}}@media screen and (max-width:359px){.topmenu__logo{display:none}.head__num{font-size:14px}.head__btn{padding:10px 24px}.head__social{width:142px}}@media screen and (max-width: 359px){.topmenu__logo{display:none;}.head__num{font-size:14px;}.head__btn{padding:10px 24px}.head__social{width:142px;}.popular__tab{padding:12px;font-size:10px;}}
+	</style>
+
+</head>
+
+<body>
+	
+	<div class="topmenu">
+		
+		<!-- width limits -->
+		<div class="wrapper">
+
+			<!-- logo -->
+			<a href="#" class="topmenu__logo"><img src="img/logos/logo-unactive.png" alt="топдети"></a>
+	
+			<!-- hamburger menu for mobiles -->
+			<div class="topmenu__burger">
+				<span class="topmenu__line"></span>
+			</div>
+			<!-- navigation -->
+			<ul class="topmenu__links">
+				<li>
+					<a href="#" class="topmenu__link">мальчики</a>
+					<ul class="topmenu__dropdown">
+						<li><a href="#" class="topmenu__item">одежда</a></li>
+						<li><a href="#" class="topmenu__item">обувь</a></li>
+					</ul>
+				</li>
+				<li>
+					<a href="#" class="topmenu__link">девочки</a>
+					<ul class="topmenu__dropdown">
+						<li><a href="#" class="topmenu__item">одежда</a></li>
+						<li><a href="#" class="topmenu__item">обувь</a></li>
+					</ul>
+				</li>
+				<li><a href="#" class="topmenu__link">look book</a></li>
+				<li><a href="#" class="topmenu__link">размерная сетка</a></li>
+			</ul>
+
+			<!-- search -->
+			<input type="text" class="topmenu__search">
+
+			<!-- user personal area -->
+			<div class="topmenu__area">
+				<a href="#" class="topmenu__user"><img src="img/icons/user.png" alt="профиль"></a>
+				<a href="#" class="topmenu__user"><img src="img/icons/star.png" alt="я не знаю что тут должно быть"></a>
+				<a href="#" class="topmenu__user"><img src="img/icons/sh-bag.png" alt="корзина товаров"></a>
+			</div>
+		</div>
+	</div>
+
+	<div class="head">
+
+		<!-- width limits -->
+		<div class="wrapper">
+			
+			<!-- callback -->
+			<div class="head__callback">
+				<p class="head__num">+7 (800) 321-55-66</p>
+				<a href="#" class="head__btn">зазакать звонок</a>
+			</div>
+
+			<!-- logo -->
+			<img src="img/logos/main-logo.png" alt="топдети" class="head__logo">
+
+			<!-- social media -->
+			<div class="head__socials">
+				<p class="head__follow">Следуйте за нами:</p>
+				<div class="head__social">
+					<img src="img/social/vk.png" alt="наш аккаунт во ВКонтакте">
+					<img src="img/social/twitter.png" alt="наш аккаунт в твиттере">
+					<img src="img/social/instagram.png" alt="наш аккаунт в инстаграме">
+					<img src="img/social/facebook.png" alt="наш аккаунт в фэйсбуке">
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<div class="tabs">
+		
+		<div class="tabs__header">
+			<a href="#" class="tabs__tab">Главная</a>
+			<a href="#" class="tabs__tab">О магазине</a>
+			<a href="#" class="tabs__tab">Доставка</a>
+			<a href="#" class="tabs__tab">Оплата</a>
+			<a href="#" class="tabs__tab">Контакты</a>
+		</div>
+
+		<div class="tabs__content">
+
+			<div class="tabs__block main">
+				
+				<!-- slick slider -->
+				<div class="main__slider mainslider">
+					<div class="mainslider__item first">
+						<div class="first__body">
+							
+							<h2 class="first__title">новая коллекция одежды</h2>
+
+							<center class="first__cntr">
+								<div class="first__lines">
+									<div></div>
+									<div></div>
+									<div></div>
+								</div>
+								<div class="first__collection">осень-зима</div>
+								<div class="first__lines">
+									<div></div>
+									<div></div>
+									<div></div>
+								</div>			
+							</center>
+
+							<a href="#" class="first__btn">посмотреть</a><br>
+							<a href="#" class="first__scroll"><img src="img/icons/pointer-down.png" alt=""></a>
+						</div>
+					</div>
+					<div class="mainslider__item second"></div>
+					<div class="mainslider__item third"></div>
+					<div class="mainslider__item fourth"></div>
+				</div>
+
+				<!-- promo section -->
+				<div class="main__promo promo">
+
+					<!-- width limits -->
+					<div class="wrapper">
+						
+						<div class="promo__card promo-first">
+							<h2>casual looks</h2>
+						</div>
+
+						<div class="promo__card promo-second">
+							<h2>new collection</h2>
+						</div>
+
+						<div class="promo__card promo-third">
+							<h2>sport coats</h2>
+						</div>
+					</div>
+				</div>
+
+				<div class="main__popular popular">
+
+					<h2 class="popular__title">Популярное</h2>
+
+					<!-- container for tabs -->
+					<div class="popular__header">
+						<a href="#" class="popular__tab">все вместе</a>
+						<a href="#" class="popular__tab">мальчики</a>
+						<a href="#" class="popular__tab">девочки</a>
+					</div>
+
+					<!-- content -->
+					<div class="popular__cntnt">
+
+						<!-- content for first tab -->
+						<div class="popular__block">
+							
+							<!-- width limits -->
+							<div class="wrapper">
+								
+								<a href="#" class="popular__card">
+									<img src="img/photos/popular/1-kid.jpg" alt="" class="popular__icon" loading="lazy">
+									<p class="popular__descr">Рубашка детская в полоску</p>
+									<p class="popular__cost">2 990 руб.</p>
+								</a>
+								<a href="#" class="popular__card">
+									<img src="img/photos/popular/2-kid.jpg" alt="" class="popular__icon" loading="lazy">
+									<p class="popular__descr">Рубашка детская в полоску</p>
+									<p class="popular__cost">2 990 руб.</p>
+								</a>
+								<a href="#" class="popular__card">
+									<img src="img/photos/popular/3-kid.jpg" alt="" class="popular__icon" loading="lazy">
+									<p class="popular__descr">Рубашка детская в полоску</p>
+									<p class="popular__cost">2 990 руб.</p>
+								</a>
+								<a href="#" class="popular__card">
+									<img src="img/photos/popular/4-kid.jpg" alt="" class="popular__icon" loading="lazy">
+									<p class="popular__descr">Рубашка детская в полоску</p>
+									<p class="popular__cost">2 990 руб.</p>
+								</a>
+								<a href="#" class="popular__card">
+									<img src="img/photos/popular/5-kid.jpg" alt="" class="popular__icon" loading="lazy">
+									<p class="popular__descr">Рубашка детская в полоску</p>
+									<p class="popular__cost">2 990 руб.</p>
+								</a>
+							</div>
+						</div>
+
+						<!-- content for second tab -->
+						<div class="popular__block">
+							
+							<!-- width limits -->
+							<div class="wrapper">
+								
+								<a href="#" class="popular__card">
+									<img src="img/photos/popular/1-kid.jpg" alt="" class="popular__icon" loading="lazy">
+									<p class="popular__descr">Рубашка детская в полоску</p>
+									<p class="popular__cost">2 990 руб.</p>
+								</a>
+								<a href="#" class="popular__card">
+									<img src="img/photos/popular/2-kid.jpg" alt="" class="popular__icon" loading="lazy">
+									<p class="popular__descr">Рубашка детская в полоску</p>
+									<p class="popular__cost">2 990 руб.</p>
+								</a>
+								<a href="#" class="popular__card">
+									<img src="img/photos/popular/3-kid.jpg" alt="" class="popular__icon" loading="lazy">
+									<p class="popular__descr">Рубашка детская в полоску</p>
+									<p class="popular__cost">2 990 руб.</p>
+								</a>
+								<a href="#" class="popular__card">
+									<img src="img/photos/popular/4-kid.jpg" alt="" class="popular__icon" loading="lazy">
+									<p class="popular__descr">Рубашка детская в полоску</p>
+									<p class="popular__cost">2 990 руб.</p>
+								</a>
+								<a href="#" class="popular__card">
+									<img src="img/photos/popular/5-kid.jpg" alt="" class="popular__icon" loading="lazy">
+									<p class="popular__descr">Рубашка детская в полоску</p>
+									<p class="popular__cost">2 990 руб.</p>
+								</a>
+							</div>
+						</div>
+
+						<!-- content for third tab -->
+						<div class="popular__block">
+							
+							<!-- width limits -->
+							<div class="wrapper">
+								
+								<a href="#" class="popular__card">
+									<img src="img/photos/popular/1-kid.jpg" alt="" class="popular__icon" loading="lazy">
+									<p class="popular__descr">Рубашка детская в полоску</p>
+									<p class="popular__cost">2 990 руб.</p>
+								</a>
+								<a href="#" class="popular__card">
+									<img src="img/photos/popular/2-kid.jpg" alt="" class="popular__icon" loading="lazy">
+									<p class="popular__descr">Рубашка детская в полоску</p>
+									<p class="popular__cost">2 990 руб.</p>
+								</a>
+								<a href="#" class="popular__card">
+									<img src="img/photos/popular/3-kid.jpg" alt="" class="popular__icon" loading="lazy">
+									<p class="popular__descr">Рубашка детская в полоску</p>
+									<p class="popular__cost">2 990 руб.</p>
+								</a>
+								<a href="#" class="popular__card">
+									<img src="img/photos/popular/4-kid.jpg" alt="" class="popular__icon" loading="lazy">
+									<p class="popular__descr">Рубашка детская в полоску</p>
+									<p class="popular__cost">2 990 руб.</p>
+								</a>
+								<a href="#" class="popular__card">
+									<img src="img/photos/popular/5-kid.jpg" alt="" class="popular__icon" loading="lazy">
+									<p class="popular__descr">Рубашка детская в полоску</p>
+									<p class="popular__cost">2 990 руб.</p>
+								</a>
+							</div>
+						</div>
+					</div>
+				</div>
+
+				<div class="main__brands brandslider">
+					<div class="wrapper">
+						<h2 class="brandslider__title">Бренды</h2>
+						<div class="brandslider__slider">
+							
+							<div class="brandslider__item">
+								<img src="img/brands/couture.jpg" alt="" loading="lazy">
+							</div>
+							<div class="brandslider__item">
+								<img src="img/brands/rahua.jpg" alt="" loading="lazy">
+							</div>
+							<div class="brandslider__item">
+								<img src="img/brands/butter.jpg" alt="" loading="lazy">
+							</div>
+							<div class="brandslider__item">
+								<img src="img/brands/jane.jpg" alt="" loading="lazy">
+							</div>
+							<div class="brandslider__item">
+								<img src="img/brands/zara.jpg" alt="" loading="lazy">
+							</div>
+							<div class="brandslider__item">
+								<img src="img/brands/glam.jpg" alt="" loading="lazy">
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="tabs__block about">2</div>
+			<div class="tabs__block delivery">3</div>
+			<div class="tabs__block pay">4</div>
+			<div class="tabs__block contacts">5</div>
+		</div>
+	</div>
+
+	<footer class="footer">
+
+		<!-- width limits -->
+		<div class="wrapper">
+			
+			<!-- scroll button -->
+			<div class="footer__scroll">
+				<a href="#">
+					<img src="img/icons/pointer-up.png" loading="lazy" alt="">
+					<p>наверх</p>
+				</a>
+			</div>
+
+			<!-- footer links -->
+			<nav class="footer__links">
+
+				<!-- first column -->
+				<div class="footer__block">
+					<h2 class="footer__title">главное меню</h2>
+					<a href="#" class="footer__link">О магазине</a>
+					<a href="#" class="footer__link">Оплата</a>
+					<a href="#" class="footer__link">Доставка</a>
+					<a href="#" class="footer__link">Контакты</a>
+					<a href="#" class="footer__link">Размерная сетка</a>
+				</div>
+
+				<!-- second column -->
+				<div class="footer__block">
+					<h2 class="footer__title">главное меню</h2>
+					<a href="#" class="footer__link">О магазине</a>
+					<a href="#" class="footer__link">Оплата</a>
+					<a href="#" class="footer__link">Доставка</a>
+					<a href="#" class="footer__link">Контакты</a>
+					<a href="#" class="footer__link">Размерная сетка</a>
+				</div>
+
+				<!-- third column -->
+				<div class="footer__block">
+					<h2 class="footer__title">главное меню</h2>
+					<a href="#" class="footer__link">О магазине</a>
+					<a href="#" class="footer__link">Оплата</a>
+					<a href="#" class="footer__link">Доставка</a>
+					<a href="#" class="footer__link">Контакты</a>
+					<a href="#" class="footer__link">Размерная сетка</a>
+				</div>
+			</nav>
+
+			<!-- block with information -->
+			<div class="footer__info">
+				
+				<p class="footer__copy">
+					© 2014 topdeti.com.Все права защищены. <br>
+					Запрещается копирование и <br>
+					распространение материалов сайта.
+				</p>
+
+				<div class="footer__social">
+					<img src="img/social/vk.png" loading="lazy" alt="">
+					<img src="img/social/twitter.png" loading="lazy" alt="">
+					<img src="img/social/instagram.png" loading="lazy" alt="">
+					<img src="img/social/facebook.png" loading="lazy" alt="">
+				</div>
+
+				<p class="footer__digital">Digital production — <span>Точка.ру</span></p>
+			</div>
+		</div>
+	</footer>
+
+	
+
+	<!-- js files -->
+	<script src="js/scripts.min.js"></script>
+	<script src="min/common.min.js"></script>
+
+</body>
+</html>
